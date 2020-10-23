@@ -1,13 +1,11 @@
 <?php
 
 namespace App\Wcs;
+
 class Hello
 {
-    public function talk()
+    public static function world()
     {
-        echo 'Hello World';
-
+        return 'Hello World, Composer!';
     }
-
-
 }
